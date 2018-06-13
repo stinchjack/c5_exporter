@@ -1,0 +1,16 @@
+{
+  "name": "c5_exporter",
+  "description": "Experiement XML/CIF export for concrete5 V8",
+  "type": "project",
+  "license": "GPL",
+  "version": "0.2.0",
+
+  "authors": [
+      {
+          "name": "Jack Stinchcombe ",
+          "email": "stinchjack@gmail.com",
+          "role": "Developer"
+      },
+    ],
+
+  }
