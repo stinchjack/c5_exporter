@@ -1,5 +1,5 @@
 {
-  "name": "c5_exporter",
+  "name": "stinchjack/c5_exporter",
   "description": "Experiement XML/CIF export for concrete5 V8",
   "type": "project",
   "license": "GPL",
