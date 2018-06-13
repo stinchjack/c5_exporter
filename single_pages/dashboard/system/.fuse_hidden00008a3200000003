@@ -1,0 +1,23 @@
+<?php
+
+defined('C5_EXECUTE') or die('Access Denied.');
+?>
+
+
+<form method="post" action="<?=$view->action('update_sitename')?>">
+    <fieldset>
+    <div class="form-group">
+        <label for="className" class="launch-tooltip control-label"
+          data-placement="right"
+          title="<?=t('some help text')?>"><?=t('ClassName')?></label>
+        <?=$form->text('CLASSNAME', '', array('class' => 'span4'))?>
+    </div>
+    </fieldset>
+    <div class="ccm-dashboard-form-actions-wrapper">
+    <div class="ccm-dashboard-form-actions">
+        <button class="pull-right btn btn-success" type="submit" ><?=t('Export')?></button>
+    </div>
+    </div>
+</form>
+
+?>
