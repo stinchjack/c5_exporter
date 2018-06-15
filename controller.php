@@ -20,7 +20,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'exporter'; //<--must match package name
     protected $appVersionRequired = '8.3.2';
-    protected $pkgVersion = '0.2.0';
+    protected $pkgVersion = '0.2.2';
 
     public function getPackageDescription()
     {
